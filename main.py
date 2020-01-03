@@ -22,3 +22,11 @@ print(cat)
 
 print('Hi ' + cat['name'])
 print(cat['photo'])
+
+def feed(pet):
+    pet['hungry'] = False
+    pet['weight'] = pet['weight'] + 1
+
+print(cat)
+feed(cat)
+print(cat)
