@@ -24,9 +24,13 @@ print('Hi ' + cat['name'])
 print(cat['photo'])
 
 def feed(pet):
-    pet['hungry'] = False
-    pet['weight'] = pet['weight'] + 1
+    if pet['hungry'] == True:
+        pet['hungry'] = False
+        pet['weight'] = pet['weight'] + 1
+    else:
+        print(pet['name'] + ' is not hungry!')
 
 print(cat)
 feed(cat)
 print(cat)
+feed(cat)
