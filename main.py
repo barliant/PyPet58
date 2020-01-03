@@ -18,6 +18,16 @@ cat = {
     'photo': '(=^o.o^=)_/',
 }
 
+mouse = {
+    'name': 'Mouse',
+    'age': 6,
+    'weight': 1.5,
+    'hungry': False,
+    'photo': '<:3 )~~~~',
+}
+
+pets = [cat, mouse]
+
 print(cat)
 
 print('Hi ' + cat['name'])
