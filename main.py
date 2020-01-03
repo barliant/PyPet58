@@ -9,3 +9,16 @@ photo = '(=^o.o^=)__'
 
 print('Hello ' + name)
 print(photo)
+
+cat = {
+    'name': 'Fluffy',
+    'hungry': True,
+    'weight': 9.5,
+    'age': 5,
+    'photo': '(=^o.o^=)_/',
+}
+
+print(cat)
+
+print('Hi ' + cat['name'])
+print(cat['photo'])
