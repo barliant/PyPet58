@@ -40,7 +40,6 @@ def feed(pet):
     else:
         print(pet['name'] + ' is not hungry!')
 
-print(cat)
-feed(cat)
-print(cat)
-feed(cat)
+for pet in pets:
+    feed(pet)
+    print(pet)
