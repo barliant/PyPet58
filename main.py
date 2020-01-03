@@ -6,3 +6,6 @@ weight = 50.5
 hungry = True
 naughty = True
 photo = '(=^o.o^=)__'
+
+print('Hello ' + name)
+print(photo)
